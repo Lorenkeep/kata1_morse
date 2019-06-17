@@ -50,4 +50,4 @@ for letra in cadena:
     if letra in morse:
         print ("{}: {}".format(letra, morse[letra]))
     else:
-       print " "
+       print (" ")
