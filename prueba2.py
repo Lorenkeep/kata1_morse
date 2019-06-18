@@ -1,6 +1,6 @@
 import morse
 import time
-for docx import Document
+from docx import Document
 
 mensaje = input("Dime algo: ")
 
@@ -9,4 +9,4 @@ print(telegrama)
 original = morse.toPlain(telegrama)
 print(original)
 
-print(time.strftime("%d/%m/%y", time ))
+print(time.strftime("%d/%m/%y", time.gmtime()))
